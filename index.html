@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./slike/patka.jpg" type="image/x-icon">
     <title>Домаће животиње</title>
 </head>
 <body>
@@ -25,11 +26,41 @@
 
     <div class="sadrzaj">
         <div class="zivotinje" id="zivotinje">
-            <div class="krug" id="z1"></div>
-            <div class="krug" id="z2"></div>
-            <div class="krug" id="z3"></div>
-            <div class="krug" id="z4"></div>
-            <div class="krug" id="z5"></div>
+            <div class="slicice">
+                <div class="krug" id="z1"></div>
+                <div class="krug" id="z2"></div>
+                <div class="krug" id="z3"></div>
+                <div class="krug" id="z4"></div>
+                <div class="krug" id="z5"></div>
+            </div>
+
+            <div class="opisi">
+                <div class="opis skrivenOpis" id="o1">
+                    <button onclick="b1()">&#x2716</button>
+                    <h1>Пас</h1>
+                    <p>Такође познат и као домаћи пас (лат. Canis lupus familiaris), је припитомљени сисар (Mammalia) из породице паса (Canidae).</p>
+                </div>
+                <div class="opis skrivenOpis" id="o2">
+                    <button onclick="b2()">&#x2716</button>
+                    <h1>Патка</h1>
+                    <p>Патке су углавном водене птице углавном мање од лабудова и гуски и могу се наћи у речним и морским водама.</p>
+                </div>
+                <div class="opis skrivenOpis" id="o3">
+                    <button onclick="b3()">&#x2716</button>
+                    <h1>Мачка</h1>
+                    <p>Такође звана и домаћа мачка или кућна мачка (лат. Felis catus), мали је месождер, врста сисара из рода Felis. Мачке живе у блиској вези са људима најмање 9.500 година.</p>
+                </div>
+                <div class="opis skrivenOpis" id="o4">
+                    <button onclick="b4()">&#x2716</button>
+                    <h1>Пиле</h1>
+                    <p>је подврста птице која се често гаји као живина. Ова птица је најраспрострањенија на земљи, са тоталном популацијом од преко 19 милијарди по процени из 2011. године.</p>
+                </div>
+                <div class="opis skrivenOpis" id="o5">
+                    <button onclick="b5()">&#x2716</button>
+                    <h1>Крава</h1>
+                    <p>Домаће говедо или домаће говече је припитомљен потомак дивљег говеда – тура. То је врста великих сисара преживара, висине од 120 до 150 цм и тежине 600 до 800 кг.</p>
+                </div>
+            </div>
         </div>
         
         <div class="autor skriveno" id="autor">
@@ -40,25 +71,27 @@
                 <div class="omeni">
                     <h1>Јован Костић</h1>
                     <p>Ученик Техничке Школе у Пироту <br> <a href="https://github.com/Jovan-K">Моји пројекти</a></p>
-                    
                 </div>
             </div>
         </div>
+
         <div class="uputstvo skriveno" id="uputstvo">
             <div class="sadrzajpolje">
                 <p>
-                   Преласком миша преко слике животиње доводи до пуштања звука који та животиње ствара. Навигациони мени којим сте дошли до ове странице води до различитих делова овог сајта.
+                   Преласком миша преко слике животиње доводи до пуштања звука који та животиње ствара.
+                   <br>
+                   Кликом на животињу долазимо да описа те животиње.
+                   <br>
+                   Навигациони мени којим сте дошли до ове странице води до различитих делова овог сајта.
                 </p>
             </div>
         </div>
     </div>
 
-
-
-
     <footer>
-        <p>Copyright &#169 Предшколска Установа "Срећно Дете"</p>
+        <p>Copyright &#169 Техничка Школа Пирот -  Јован Костић</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

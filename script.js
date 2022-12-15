@@ -1,6 +1,6 @@
 let z1 = new Audio("./zvuci/pas.wav")
 let z2 = new Audio("./zvuci/patka.mp3")
-let z3 = new Audio("./zvuci/macka.mp3")
+let z3 = new Audio("./zvuci/macka.wav")
 let z4 = new Audio("./zvuci/pile.wav")
 let z5 = new Audio("./zvuci/krava.wav")
 
@@ -55,3 +55,40 @@ document.getElementById('uputstvodugme').addEventListener("click", ()=>{
     dugme = "uputstvodugme";
     document.getElementById('uputstvodugme').classList.add("trenutno");
 })
+
+
+
+
+
+
+document.getElementById('z1').addEventListener("click", ()=>{
+    document.getElementById('o1').classList.remove('skrivenOpis');
+})
+document.getElementById('z2').addEventListener("click", ()=>{
+    document.getElementById('o2').classList.remove('skrivenOpis');
+})
+document.getElementById('z3').addEventListener("click", ()=>{
+    document.getElementById('o3').classList.remove('skrivenOpis');
+})
+document.getElementById('z4').addEventListener("click", ()=>{
+    document.getElementById('o4').classList.remove('skrivenOpis');
+})
+document.getElementById('z5').addEventListener("click", ()=>{
+    document.getElementById('o5').classList.remove('skrivenOpis');
+})
+
+function b1(){
+    document.getElementById('o1').classList.add('skrivenOpis');
+}
+function b2(){
+    document.getElementById('o2').classList.add('skrivenOpis');
+}
+function b3(){
+    document.getElementById('o3').classList.add('skrivenOpis');
+}
+function b4(){
+    document.getElementById('o4').classList.add('skrivenOpis');
+}
+function b5(){
+    document.getElementById('o5').classList.add('skrivenOpis');
+}
