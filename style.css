@@ -39,7 +39,7 @@ header h1{
     align-items: center;
     gap: 1px;
 
-    background-color: black;
+    background-color: var(--clr-ljubicasta)
 }
 
 .polje{
