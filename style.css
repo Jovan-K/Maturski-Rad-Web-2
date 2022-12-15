@@ -91,5 +91,24 @@ main{
     aspect-ratio: 1/1;
     border: 5px solid var(--clr-zuta);
     border-radius: 50%;
-    background-color: var(--clr-ljubicasta);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.krug:nth-child(1){
+    background-image: url("pas.jpg");
+}
+.krug:nth-child(2){
+    background-image: url("patka.jpg");
+}
+.krug:nth-child(3){
+    background-image: url("macka.jpg");
+}
+.krug:nth-child(4){
+    background-image: url("pile.jpg");
+}
+.krug:nth-child(5){
+    background-image: url("krava.jpg");
 }
