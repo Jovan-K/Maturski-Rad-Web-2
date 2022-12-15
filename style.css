@@ -94,7 +94,7 @@ footer{
 }
 
 .krug{
-    width: 15%;
+    width: 15rem;
     aspect-ratio: 1/1;
     border: 5px solid var(--clr-zuta);
     border-radius: 50%;
@@ -119,10 +119,6 @@ footer{
 .krug:nth-child(5){
     background-image: url("./slike/krava.jpg");
 }
-
-
-
-
 
 .autor{
     position: absolute;
@@ -184,9 +180,11 @@ footer{
     height: 100%;
 }
 
-
-
 .skriveno{
     opacity: 0;
     z-index: -1;
+}
+
+a:link{
+    color: var(--clr-ljubicasta);
 }
