@@ -11,25 +11,50 @@
     <header>
         <h1>ДОМАЋЕ ЖИВОТИЊЕ</h1>
         <nav class="navbar">
-            <div class="polje trenutno">
+            <div class="polje trenutno" id="pocetna">
                 <p>Почетна</p>
             </div>
-            <div class="polje">
+            <div class="polje" id="autordugme">
                 <p>О аутору</p>
             </div>
-            <div class="polje">
+            <div class="polje" id="uputstvodugme">
                 <p>Упутство</p>
             </div>
         </nav->
     </header>
 
-    <main>
-        <div class="krug" id="z1"></div>
-        <div class="krug" id="z2"></div>
-        <div class="krug" id="z3"></div>
-        <div class="krug" id="z4"></div>
-        <div class="krug" id="z5"></div>
-    </main>
+    <div class="sadrzaj">
+        <div class="zivotinje" id="zivotinje">
+            <div class="krug" id="z1"></div>
+            <div class="krug" id="z2"></div>
+            <div class="krug" id="z3"></div>
+            <div class="krug" id="z4"></div>
+            <div class="krug" id="z5"></div>
+        </div>
+        
+        <div class="autor skriveno" id="autor">
+            <div class="sadrzajpolje">
+                <div class="slika">
+                    <img src="./slike/ja.PNG" alt="Ja">
+                </div>
+                <div class="omeni">
+                    <h1>Јован Костић</h1>
+                    <p>Ученик Техничке Школе у Пироту <br> <a href="https://github.com/Jovan-K">Моји пројекти</a></p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="uputstvo skriveno" id="uputstvo">
+            <div class="sadrzajpolje">
+                <p>
+                   Преласком миша преко слике животиње доводи до пуштања звука који та животиње ствара. Навигациони мени којим сте дошли до ове странице води до различитих делова овог сајта.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <footer>
         <p>Copyright &#169 Предшколска Установа "Срећно Дете"</p>

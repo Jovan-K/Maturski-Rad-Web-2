@@ -11,7 +11,7 @@ body{
     margin: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url(pozadina.jpg);
+    background-image: url("./slike/pozadina.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,13 +76,20 @@ footer{
     font-size: 1.5em;
 }
 
-main{
+.sadrzaj{
+    position: relative;
+    width: 100%;
+    margin-top: 5rem;
+    height: 60%;
+}
+
+
+.zivotinje{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 20rem;
-    margin-top: 5rem;
     gap: 1rem;
 }
 
@@ -98,17 +105,88 @@ main{
 }
 
 .krug:nth-child(1){
-    background-image: url("pas.jpg");
+    background-image: url("./slike/pas.jpg");
 }
 .krug:nth-child(2){
-    background-image: url("patka.jpg");
+    background-image: url("./slike/patka.jpg");
 }
 .krug:nth-child(3){
-    background-image: url("macka.jpg");
+    background-image: url("./slike/macka.jpg");
 }
 .krug:nth-child(4){
-    background-image: url("pile.jpg");
+    background-image: url("./slike/pile.jpg");
 }
 .krug:nth-child(5){
-    background-image: url("krava.jpg");
+    background-image: url("./slike/krava.jpg");
+}
+
+
+
+
+
+.autor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uputstvo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadrzajpolje{
+    height: 100%;
+    width: 60rem;
+    border-radius: 5rem;
+    background-color: white;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sadrzajpolje p{
+    font-size: 2em;
+    
+}
+
+.slika{
+    background-image: linear-gradient(45deg,  var(--clr-ljubicasta), var(--clr-zuta));
+    border-radius: 2rem;
+    height: 30rem;
+    width: 20rem;
+    margin: 2rem;
+}
+
+.omeni{
+    width: 20rem;
+    height: 30rem;
+}
+
+.slika img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.skriveno{
+    opacity: 0;
+    z-index: -1;
 }
